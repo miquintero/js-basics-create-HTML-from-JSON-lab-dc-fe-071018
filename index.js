@@ -32,3 +32,5 @@ function handleJSON(movie) {
       buttons[i],addEventListener('click', handleButton)
     }
   }
+
+button.addEventListener('click', button, "Terminator 2")
