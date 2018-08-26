@@ -5,7 +5,7 @@ function handleJSON(movie) {
   document.getElementById("director").innerHTML = json.director
   document.getElementById("genre").innerHTML = json.genre
   document.getElementById("filmRating").innerHTML = json.filmRating
-  document.getElementById("poster").innerHTML = json.poster
+  document.getElementById("poster").src = json.poster
   document.getElementById("description").innerHTML = json.description
   document.getElementById("cast").innerHTML = ""
   document.getElementById("review").innerHTML = ""
