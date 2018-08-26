@@ -1,4 +1,3 @@
-
 function handleJSON(movie) {
 
   let json = movies[movie]
@@ -28,6 +27,14 @@ function handleJSON(movie) {
 
   window.onload = () => {
     handleJSON("Titanic")
+    let buttons = document.getElementByTagName("button")
+    for (let i=0; i < buttons.length; i++) {
+      buttons[i],addEventListener('click', handleButton)
+    }
+  }
+
+  window.onload = () => {
+    handleJSON("Terminator 2")
     let buttons = document.getElementByTagName("button")
     for (let i=0; i < buttons.length; i++) {
       buttons[i],addEventListener('click', handleButton)
