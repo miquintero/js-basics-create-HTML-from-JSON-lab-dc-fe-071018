@@ -32,11 +32,3 @@ function handleJSON(movie) {
       buttons[i],addEventListener('click', handleButton)
     }
   }
-
-  window.onload = () => {
-    handleJSON("Terminator 2")
-    let buttons = document.getElementByTagName("button")
-    for (let i=0; i < buttons.length; i++) {
-      buttons[i],addEventListener('click', handleButton)
-    }
-  }
